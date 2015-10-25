@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("button").click(function(){
+		$("#div1").load("/try/ajax/demo_test.txt");
+	});
+});
+</script>
+</head>
+<body>
+<div id="div1">jquery ajax</div>
+<button>获取外部内容</button>
+</body>
+</html>
